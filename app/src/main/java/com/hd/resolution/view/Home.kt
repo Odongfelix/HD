@@ -81,8 +81,7 @@ fun Home(
             val quality = listOf<Resolution>(
                 Resolution.HD,
                 Resolution.HD_PLUS,
-                Resolution.FOUR_K,
-                Resolution.FOUR_K_PLUS
+                Resolution.FOUR_K
             )
 
             Spacer(modifier = Modifier.height(30.dp))

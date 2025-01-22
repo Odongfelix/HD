@@ -25,7 +25,6 @@ fun Resolution.icon(): Int {
         Resolution.HD -> R.drawable.hd_24
         Resolution.HD_PLUS -> R.drawable.full_hd_24
         Resolution.FOUR_K -> R.drawable.four
-        Resolution.FOUR_K_PLUS -> R.drawable.four_plus
     }
 }
 
@@ -34,7 +33,6 @@ fun Resolution.dimension(): Point {
         Resolution.HD -> Point(1280, 720)
         Resolution.HD_PLUS -> Point(1920, 1080)
         Resolution.FOUR_K -> Point(3840, 2160)
-        Resolution.FOUR_K_PLUS -> Point(7680, 4320)
     }
 }
 
